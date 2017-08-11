@@ -51,7 +51,7 @@ MapReduce Version 2 is a re-write of the original MapReduce code run as an appli
 
 == Spring YARN Intro
 
-The development process for a YARN application, from the moment when a developer starts his or her work to the point when someone actually executes the application on a Hadoop cluster, is a bit more complicated than just creating a few lines of "Hello world!" code. 
+The development process for a YARN application, from the moment when a developer starts his or her work to the point when someone actually executes the application on a Hadoop cluster, is a bit more complicated than just creating a few lines of "Hello world!" code.
 
 Let's see what needs to be considered:
 
@@ -60,7 +60,7 @@ Let's see what needs to be considered:
  - How is the packaged application configured?
  - How is the final application executed on YARN?
 
-We believe that Spring YARN and Spring Boot creates a very clear story for how above topics could be handled. 
+We believe that Spring YARN and Spring Boot creates a very clear story for how above topics could be handled.
 
 At a high level, Spring YARN provides three different components, {YarnClient}[`YarnClient`], {YarnAppmaster}[`YarnAppmaster`] and {YarnContainer}[`YarnContainer`] which together can be called a Spring YARN Application. We provide default implementations for all components while still giving the end user an option to customize as much as he or she wants.
 
@@ -225,6 +225,17 @@ modification_time=1395501405412; access_time=0; owner=hadoop; group=supergroup; 
 
 == Summary
 
-Congratulations! You've just developed a Spring YARN application! 
+Congratulations! You've just developed a Spring YARN application!
+
+== See Also
+
+The following guides may also be helpful:
+
+* https://spring.io/guides/gs/yarn-basic-single/[Simple Single Project YARN Application]
+* https://spring.io/guides/gs/maven-yarn/[Building Spring YARN Projects with Maven]
+* https://spring.io/guides/gs/gradle-yarn/[Building Spring YARN Projects with Gradle]
+* https://spring.io/guides/gs/yarn-testing/[Testing YARN Application]
+* https://spring.io/guides/gs/yarn-batch-processing/[Batch YARN Application]
+* https://spring.io/guides/gs/yarn-batch-restart/[Restartable Batch YARN Application]
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/footer.adoc[]
